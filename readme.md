@@ -1,4 +1,4 @@
-<img src="square-logo.svg" align="right", height="200" width="200">
+<img src="square-logo.svg" width=255 height=255 align="right">
 
 # Conditional Random Field Demo
 

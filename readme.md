@@ -2,16 +2,17 @@
 
 # Conditional Random Field Demo
 
-This project demonstrates named entity recognition with a conditional randomfield. It also 
-shows an action server responding to entities with custom python code. 
+This project demonstrates named entity recognition with 
+a conditional randomfield. It also shows an action server 
+responding to entities with custom python code. 
 
-It is maintained by Vincent D. Warmerdam, Research Advocate as [Rasa](https://rasa.com/).
+It is maintained by Vincent D. Warmerdam, Research Advocate 
+at [Rasa](https://rasa.com/).
 
 ## Youtube 
 
 This repository is part of a youtube video that explains how conditional
 random fields work for entity exatraction. You can watch this video [here]()
-
 
 ## Contents 
 
@@ -61,3 +62,11 @@ You will now have two folders with results.
 ## Play 
 
 Feel free to play around with this! Happy hacking!
+
+## Relevant Articles 
+
+There may be some online material that might help you
+appreciate some details. 
+
+- The [implementation on github](https://github.com/RasaHQ/rasa/blob/master/rasa/nlu/extractors/crf_entity_extractor.py#L44)
+- Extra [maths](https://timvieira.github.io/blog/post/2015/04/29/multiclass-logistic-regression-and-conditional-random-fields-are-the-same-thing/) that details the similarity between CRFs and Logistic Regression

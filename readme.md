@@ -1,8 +1,11 @@
+<img src="square-logo.svg" align="right", height="200" width="200">
+
 # Conditional Random Field Demo
 
-This project demonstrates named entity recognition briefly with an action server. 
+This project demonstrates named entity recognition with a conditional randomfield. It also 
+shows an action server responding to entities with custom python code. 
 
-It is maintained by Vincent D. Warmerdam, Research Advocate as [Rasa]().
+It is maintained by Vincent D. Warmerdam, Research Advocate as [Rasa](https://rasa.com/).
 
 ## Youtube 
 
@@ -37,6 +40,24 @@ in the terminal. You will need two terminals.
 rasa run actions
 # temrinal two 
 rasa train
-rasa interactive
+rasa shell --endpoints endpoints.yml
 ```
 
+You can see what the action server receives by looking at the action server logs. 
+
+## Test 
+
+If you want to change the NLU pipeline and see the effect. You can do so via; 
+
+```bash
+# before changing `config.yml`
+rasa train; rasa test --out before
+# after changing `config.yml`
+rasa train; rasa test --out before
+```
+
+You will now have two folders with results. 
+
+## Play 
+
+Feel free to play around with this! Happy hacking!

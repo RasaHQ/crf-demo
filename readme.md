@@ -68,5 +68,5 @@ Feel free to play around with this! Happy hacking!
 There may be some online material that might help you
 appreciate some details. 
 
-- The [implementation on github](https://github.com/RasaHQ/rasa/blob/master/rasa/nlu/extractors/crf_entity_extractor.py#L44)
+- The [implementation of CRF in Rasa](https://github.com/RasaHQ/rasa/blob/master/rasa/nlu/extractors/crf_entity_extractor.py#L44) directly in github.
 - Extra [maths](https://timvieira.github.io/blog/post/2015/04/29/multiclass-logistic-regression-and-conditional-random-fields-are-the-same-thing/) that details the similarity between CRFs and Logistic Regression
